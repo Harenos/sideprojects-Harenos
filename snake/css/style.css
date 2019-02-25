@@ -1,0 +1,113 @@
+/* Général */
+* {
+	transition: .2s;
+}
+a {
+	color: white;
+}
+body {
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+	background: black;
+	color: white;
+	text-transform: uppercase;
+	font-family: sans-serif;
+}
+#wrap-all {
+	width: 100vw;
+}
+.flexbox {
+	display: flex;
+}
+.jc-center {
+	justify-content: center;
+}
+#gameover {
+	font-size: 2em;
+	font-weight: bold;
+	color: red;
+	position: absolute;
+	top: calc(50% - 1em);
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+.blur {
+	filter: blur(2px) brightness(50%);
+}
+.hidden {
+	display: none;
+}
+
+/* Header (score and misc) */
+header {
+	padding: 1em;
+}
+header span {
+	padding: .5em 1em;
+	margin: 0 .5em;
+	font-weight: bold;
+	background: rgba(255, 255, 255, .5);
+	border-radius: 6px;
+	border-bottom: 2px solid rgba(255, 255, 255, .8);
+}
+
+/* Main (canvas) */
+.column, .cell {
+	width: 32px;
+}
+#canvas {
+	padding: .5em;
+	background: rgba(255, 255, 255, .5);
+	border-radius: 6px;
+	border-bottom: 2px solid rgba(255, 255, 255, .8);
+	margin: 0 auto;
+	width: -moz-min-content;
+	width: -webkit-min-content;
+	width: -o-min-content;
+	position: relative;
+}
+.column {
+	display: flex;
+	flex-direction: column;
+	margin-right: .25em;
+}
+.column:last-child {
+	margin: 0;
+}
+.cell {
+	height: 32px;
+	border: 1px solid white;
+	background: rgba(255, 255, 255, .2);
+	border-radius: 6px;
+	margin-bottom: .25em;
+}
+.item {
+	width: 50%;
+	height: 50%;
+	margin: calc(50% - .5em);
+	border-radius: 6px;
+}
+.points {
+	background: yellow;
+}
+.cut {
+	background: green;
+}
+.slow {
+	background: lightblue;
+}
+
+/* Snake (head + body) */
+#head {
+	background: url('../images/head.svg');
+}
+.body {
+	background: url('../images/body.svg');
+}
+#head, .body {
+	background-repeat: no-repeat;
+	background-size: contain;
+	transition: 0s;
+}
