@@ -11,3 +11,5 @@ Petite liste de quelques side-projects m'ayant permis d'appréhender le mieux po
 >**Objets :** Points *(boule jaune | Ajoute 1 points dans le score actuel)*, cut *(boule verte | permet de couper un segment de la queue du serpent)*, slow *(boule grise/bleue | Ralentit légèrement la vitesse du serpent)*.
 
 >**Etat des commentaires :** Non disponible, en cours d'ajout.
+
+>**Accès CodePen.io :** Non disponible, en cours d'ajout.
