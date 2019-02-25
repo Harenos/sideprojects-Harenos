@@ -12,4 +12,4 @@ Petite liste de quelques side-projects m'ayant permis d'appréhender le mieux po
 
 >**Etat des commentaires :** Non disponible, en cours d'ajout.
 
->**Accès CodePen.io :** Non disponible, en cours d'ajout.
+>**Accès CodePen.io :** https://codepen.io/Harenos/pen/VRZXJb
