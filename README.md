@@ -4,7 +4,7 @@ Petite liste de quelques side-projects m'ayant permis d'appréhender le mieux po
 ## Snake
 >**Langages :** HTML/CSS/JS.
 
->**Principe :** Avoir le plus grand score possible en ramassant le plus de points, sans percuter un mur ou encore la queue du serpent que l'on contrôle. A chaque point ajouter, la queue s'aggrandit d'un segment/case.
+>**Principe :** Avoir le plus grand score possible en ramassant le plus de points, sans percuter un mur ou encore la queue du serpent que l'on contrôle. A chaque point ajouté, la queue s'aggrandit d'un segment/case.
 
 >**Touches/contrôles :** ZQSD pour se déplacer *(Haut, gauche, bas et droite ; dans cet ordre)*.
 
